@@ -1,52 +1,52 @@
 const questions = [
     {
         question: "コンピュータ",
-        options: ["konpyuuta", "denki", "terebi", "ramen"],
+        options: ["denki", "konpyuuta", "terebi", "ramen"],
         correct: "konpyuuta"
     },
     {
         question: "テレビ",
-        options: ["terebi", "denwa", "pasokon", "neko"],
+        options: ["denwa", "pasokon", "terebi", "neko"],
         correct: "terebi"
     },
     {
         question: "パソコン",
-        options: ["pasokon", "denki", "konpyuuta", "neko"],
+        options: ["denki", "konpyuuta", "neko", "pasokon"],
         correct: "pasokon"
     },
     {
         question: "カメラ",
-        options: ["kamera", "kawa", "neko", "tabemono"],
+        options: ["kawa", "kamera", "neko", "tabemono"],
         correct: "kamera"
     },
     {
         question: "サッカー",
-        options: ["sakkaa", "tennisu", "futoboru", "baseboru"],
+        options: ["tennisu", "sakkaa", "futoboru", "baseboru"],
         correct: "sakkaa"
     },
     {
         question: "バナナ",
-        options: ["banana", "ringo", "kaki", "suika"],
+        options: ["ringo", "banana", "kaki", "suika"],
         correct: "banana"
     },
     {
         question: "アイスクリーム",
-        options: ["aisukuriimu", "gyuunyuu", "keeki", "tabemono"],
+        options: ["gyuunyuu", "keeki", "aisukuriimu", "tabemono"],
         correct: "aisukuriimu"
     },
     {
         question: "スカート",
-        options: ["sukaato", "suit", "kimono", "fuku"],
+        options: ["suit", "kimono", "sukaato", "fuku"],
         correct: "sukaato"
     },
     {
         question: "チョコレート",
-        options: ["chokoreeto", "aisu", "kurimu", "raamen"],
+        options: ["aisu", "chokoreeto", "kurimu", "raamen"],
         correct: "chokoreeto"
     },
     {
         question: "ホテル",
-        options: ["hoteru", "ryokan", "kissa", "tabemono"],
+        options: ["ryokan", "hoteru", "kissa", "tabemono"],
         correct: "hoteru"
     },
     {
@@ -56,7 +56,7 @@ const questions = [
     },
     {
         question: "デパート",
-        options: ["depaato", "ichiba", "sumika", "kutsu"],
+        options: ["ichiba", "sumika", "depaato", "kutsu"],
         correct: "depaato"
     },
     {
@@ -66,47 +66,47 @@ const questions = [
     },
     {
         question: "ジュース",
-        options: ["juusu", "kohi", "mizu", "ocha"],
+        options: ["kohi", "juusu", "mizu", "ocha"],
         correct: "juusu"
     },
     {
         question: "タクシー",
-        options: ["takushii", "basu", "jidousha", "denwa"],
+        options: ["basu", "jidousha", "denwa", "takushii"],
         correct: "takushii"
     },
     {
         question: "バス",
-        options: ["basu", "takushii", "kuruma", "dare"],
+        options: ["takushii", "kuruma", "dare", "basu"],
         correct: "basu"
     },
     {
         question: "カラオケ",
-        options: ["karaoke", "ondokei", "piano", "guitar"],
+        options: ["ondokei", "karaoke", "piano", "guitar"],
         correct: "karaoke"
     },
     {
         question: "ビール",
-        options: ["biiru", "sake", "ocha", "washi"],
+        options: ["sake", "biiru", "ocha", "washi"],
         correct: "biiru"
     },
     {
         question: "シャンプー",
-        options: ["shanpuu", "kaminari", "kirei", "tenshi"],
+        options: ["kaminari", "shanpuu", "kirei", "tenshi"],
         correct: "shanpuu"
     },
     {
         question: "エアコン",
-        options: ["eakon", "denki", "kaze", "atmosfera"],
+        options: ["denki", "kaze", "eakon", "atmosfera"],
         correct: "eakon"
     },
     {
         question: "カメラマン",
-        options: ["kameraman", "shashin", "eizou", "rekishi"],
+        options: ["shashin", "kameraman", "eizou", "rekishi"],
         correct: "kameraman"
     },
     {
         question: "メガネ",
-        options: ["megane", "tokkuri", "shita", "kami"],
+        options: ["tokkuri", "megane", "shita", "kami"],
         correct: "megane"
     },
     {
@@ -116,57 +116,57 @@ const questions = [
     },
     {
         question: "ピアノ",
-        options: ["piano", "koto", "shamisen", "guitar"],
+        options: ["koto", "piano", "shamisen", "guitar"],
         correct: "piano"
     },
     {
         question: "コンビニ",
-        options: ["konbini", "tabemono", "ichiba", "suupaa"],
+        options: ["tabemono", "konbini", "ichiba", "suupaa"],
         correct: "konbini"
     },
     {
         question: "ハンバーガー",
-        options: ["hanbaagaa", "ramen", "sushi", "udon"],
+        options: ["ramen", "hanbaagaa", "sushi", "udon"],
         correct: "hanbaagaa"
     },
     {
         question: "ケーキ",
-        options: ["keeki", "tabemono", "keki", "aisu"],
+        options: ["tabemono", "keeki", "keki", "aisu"],
         correct: "keeki"
     },
     {
         question: "スーツ",
-        options: ["suutsu", "fuku", "kimono", "tabemono"],
+        options: ["fuku", "kimono", "suutsu", "tabemono"],
         correct: "suutsu"
     },
     {
         question: "スープ",
-        options: ["suupu", "men", "udon", "onigiri"],
+        options: ["men", "suupu", "udon", "onigiri"],
         correct: "suupu"
     },
     {
         question: "レコード",
-        options: ["rekoodo", "ondo", "ongaku", "biiru"],
+        options: ["ondo", "rekoodo", "ongaku", "biiru"],
         correct: "rekoodo"
     },
     {
         question: "スカイツリー",
-        options: ["sukaitsuri", "tennou", "tori", "neko"],
+        options: ["tennou", "tori", "sukaitsuri", "neko"],
         correct: "sukaitsuri"
     },
     {
         question: "ロボット",
-        options: ["robotto", "ningyou", "tetsujin", "kumo"],
+        options: ["ningyou", "robotto", "tetsujin", "kumo"],
         correct: "robotto"
     },
     {
         question: "トマト",
-        options: ["tomato", "kabocha", "ringo", "suika"],
+        options: ["kabocha", "ringo", "tomato", "suika"],
         correct: "tomato"
     },
     {
         question: "ノート",
-        options: ["nooto", "pen", "gakki", "tokei"],
+        options: ["pen", "gakki", "nooto", "tokei"],
         correct: "nooto"
     }
 ];
@@ -235,3 +235,4 @@ function checkAnswer(selectedAnswer) {
 
 // Iniciar o quiz
 displayQuestion();
+
